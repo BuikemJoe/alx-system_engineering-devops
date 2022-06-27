@@ -1,2 +1,2 @@
 #!/bin/bash
-find /path/to/root_dir -R -type d | wc -l
+find . -type d ! -path . -print | wc -l
